@@ -90,8 +90,9 @@ def handle_message(event):
             )
         # Buttons Template
         elif text == 'Buttons':
-            url = request.url_root + 'static/Logo.jpg'
-            url = url.replace("http", "https")
+            #url = request.url_root + 'static/Logo.jpg'
+            #url = url.replace("http", "https")
+            url = "https://github.com/asd3258/Echo-Bot/blob/c322083b48ee5d04e37f9066023cabcb3169d090/static/Logo.jpg"
             app.logger.info("url=" + url)
             buttons_template = ButtonsTemplate(
                 thumbnail_image_url=url,

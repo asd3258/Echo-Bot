@@ -92,7 +92,7 @@ def handle_message(event):
         elif text == 'Buttons':
             #url = request.url_root + 'static/Logo.jpg'
             #url = url.replace("http", "https")
-            url = "https://github.com/asd3258/Echo-Bot/blob/c322083b48ee5d04e37f9066023cabcb3169d090/static/Logo.jpg"
+            url = "https://res.cloudinary.com/dp1heurg5/image/upload/v1734012273/Logo_h6il0k.jpg"
             app.logger.info("url=" + url)
             buttons_template = ButtonsTemplate(
                 thumbnail_image_url=url,
